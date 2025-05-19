@@ -1,5 +1,9 @@
 ﻿# 11. gyakorlat - feladatok
 
+```js
+select title from movies_and_tv where type = "Movie" and release_year = 2010 order by rating limit 10;
+```
+
 ## Előkészületek
 
 
