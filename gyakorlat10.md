@@ -1,6 +1,20 @@
 ﻿# 10. gyakorlat - feladatok
 
-
+```js
+HSET IRO:1 ID 1 nev "Jókai Mór" nemzetiseg "magyar"
+HSET IRO:2 ID 2 nev "Franz Kafka" nemzetiseg "osztrák-magyar"
+```
+```js
+HSET KONYV:1 ID 1 cim "Az arany ember" mufaj "regény" IRO_ID 1
+HSET KONYV:2 ID 2 cim "A per" mufaj "abszurd" IRO_ID 2
+```
+Ellenőrzés
+```js
+HGETALL IRO:1
+HGETALL IRO:2
+HGETALL KONYV:1
+HGETALL KONYV:2
+```
 
 ## Redis feladatok
 
